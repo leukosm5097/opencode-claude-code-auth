@@ -1,0 +1,43 @@
+{
+  "name": "opencode-claude-code-auth",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that uses your Claude Code session for Anthropic auth",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "opencode-claude-code-auth": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "plugin",
+    "anthropic",
+    "claude",
+    "claude-code"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "smoke": "node -e \"import('./dist/index.js').then((m)=>{if(typeof m.ClaudeCodeAuthPlugin!=='function') throw new Error('Missing ClaudeCodeAuthPlugin')})\" && node ./dist/cli.js help >/dev/null"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.2.24",
+    "jsonc-parser": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
