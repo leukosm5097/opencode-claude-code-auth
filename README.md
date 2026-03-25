@@ -1,5 +1,9 @@
 # opencode-claude-code-auth
 
+[![npm version](https://img.shields.io/npm/v/opencode-claude-code-auth.svg)](https://www.npmjs.com/package/opencode-claude-code-auth)
+[![npm downloads](https://img.shields.io/npm/dw/opencode-claude-code-auth.svg)](https://www.npmjs.com/package/opencode-claude-code-auth)
+[![publish npm](https://github.com/ragingstar2063/opencode-claude-code-auth/actions/workflows/publish.yml/badge.svg)](https://github.com/ragingstar2063/opencode-claude-code-auth/actions/workflows/publish.yml)
+[![release](https://github.com/ragingstar2063/opencode-claude-code-auth/actions/workflows/release.yml/badge.svg)](https://github.com/ragingstar2063/opencode-claude-code-auth/actions/workflows/release.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Bring back Anthropic auth to OpenCode. Pick your path — Claude Code session, browser OAuth, or plain API key.
